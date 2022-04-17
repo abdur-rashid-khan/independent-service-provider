@@ -7,8 +7,8 @@ import './Header.css'
 
 const Header = () => {
 return (
-   <Navbar style={{borderBottom:'3px solid #e9ecef'}} expand="lg">
-      <Container className="align-content-center">
+   <Navbar style={{borderBottom:'3px solid #e9ecef',position:'fixed', zIndex:'11111', width:'100%'}} expand="lg">
+      <Container className="align-content-center px-3">
       <Navbar.Brand as={Link} to="/" style={{width:'102px',height:'auto'}}>
          <img src={logo} className='img-fluid' alt="" />
       </Navbar.Brand>

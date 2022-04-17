@@ -5,7 +5,7 @@ import { Card, CardGroup } from "react-bootstrap";
 const SpecaialPhotosCard = ({ data }) => {
 const { img ,category , text} = data;
 return (
-   <div className="col-sm-12 col-md-3 col-lg-4 mb-4">
+   <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
       <CardGroup>
       <Card>
          <Card.Img variant="top" style={{width:'100%',height:'250px'}} src={img} />
