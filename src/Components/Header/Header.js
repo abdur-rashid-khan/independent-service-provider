@@ -9,7 +9,7 @@ const Header = () => {
 return (
    <Navbar style={{borderBottom:'3px solid #e9ecef'}} expand="lg">
       <Container className="align-content-center">
-      <Navbar.Brand as={Link} to="/" style={{width:'152px',height:'auto'}}>
+      <Navbar.Brand as={Link} to="/" style={{width:'102px',height:'auto'}}>
          <img src={logo} className='img-fluid' alt="" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
