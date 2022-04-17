@@ -7,7 +7,7 @@
    const Banner = () => {
 
    return (
-      <Carousel>
+      <Carousel className="container">
          <Carousel.Item style={{width:'100%',height:'auto'}}>
          <img
             className="d-block w-100"
