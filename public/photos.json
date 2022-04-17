@@ -42,16 +42,9 @@
       "desc":"Free to use under the ar photography License",
       "photos":"https://images.unsplash.com/photo-1610173826608-bd1f53a52db1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
    },
-{
-      "id":3,
-      "category":"natural",
-      "views":"10,867",
-      "download":800,
-      "like":2350,
-      "date":"Published 20 hours ago",
-      "desc":"Free to use under the ar photography License",
-      "photos":"https://images.unsplash.com/photo-1604864386498-2b2fd1b2bd2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-   },
+
+
+
    {
       "id":18,
       "category":"fashion",
@@ -73,27 +66,8 @@
       "desc":"Free to use under the ar photography License",
       "photos":"https://images.unsplash.com/photo-1517407646106-25124bdfab79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
    },
-   {
-      "id":17,
-      "category":"fashion",
-      "views":"8,867",
-      "download":1000,
-      "comment":1050,
-      "like":6000,
-      "date":"Published 21 hours ago",
-      "desc":"Free to use under the ar photography License",
-      "photos":"https://images.unsplash.com/photo-1520975661595-6453be3f7070?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHN0eWxlJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-   },
-   {
-      "id":7,
-      "category":"wedding",
-      "views":"867",
-      "download":300,
-      "like":6350,
-      "date":"Published 21 hours ago",
-      "desc":"Free to use under the ar photography License",
-      "photos":"https://images.unsplash.com/flagged/photo-1557695742-6ddd2cd63a5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-   },
+
+
    {
       "id":4,
       "category":"natural",
@@ -135,6 +109,68 @@
       "desc":"Free to use under the ar photography License",
       "photos":"https://images.unsplash.com/photo-1640952616902-a406e4ebb681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
    },
+
+   {
+      "id":2,
+      "category":"natural",
+      "views":"5,867",
+      "download":500,
+      "like":1350,
+      "date":"Published 19 hours ago",
+      "desc":"Free to use under the ar photography License",
+      "photos":"https://images.unsplash.com/photo-1650095597854-49a7585a90b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+   },
+   {
+      "id":1,
+      "category":"natural",
+      "views":"9,867",
+      "download":500,
+      "like":3500,
+      "date":"Published 19 hours ago",
+      "desc":"Free to use under the ar photography License",
+      "photos":"https://images.unsplash.com/photo-1560542325-d7d5fec871f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+   },
+   {
+      "id":3,
+      "category":"natural",
+      "views":"10,867",
+      "download":800,
+      "like":2350,
+      "date":"Published 20 hours ago",
+      "desc":"Free to use under the ar photography License",
+      "photos":"https://images.unsplash.com/photo-1604864386498-2b2fd1b2bd2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+   },
+   {
+      "id":7,
+      "category":"wedding",
+      "views":"867",
+      "download":300,
+      "like":6350,
+      "date":"Published 21 hours ago",
+      "desc":"Free to use under the ar photography License",
+      "photos":"https://images.unsplash.com/flagged/photo-1557695742-6ddd2cd63a5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+   },
+   {
+      "id":2,
+      "category":"natural",
+      "views":"5,867",
+      "download":500,
+      "like":1350,
+      "date":"Published 19 hours ago",
+      "desc":"Free to use under the ar photography License",
+      "photos":"https://images.unsplash.com/photo-1650095597854-49a7585a90b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+   },
+   {
+      "id":17,
+      "category":"fashion",
+      "views":"8,867",
+      "download":1000,
+      "comment":1050,
+      "like":6000,
+      "date":"Published 21 hours ago",
+      "desc":"Free to use under the ar photography License",
+      "photos":"https://images.unsplash.com/photo-1520975661595-6453be3f7070?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHN0eWxlJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+   },
    {
       "id":13,
       "category":"fashion",
@@ -158,16 +194,6 @@
       "photos":"https://images.unsplash.com/photo-1611702817692-ee0591608901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxNDQzMDM0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
    },
    {
-      "id":2,
-      "category":"natural",
-      "views":"5,867",
-      "download":500,
-      "like":1350,
-      "date":"Published 19 hours ago",
-      "desc":"Free to use under the ar photography License",
-      "photos":"https://images.unsplash.com/photo-1650095597854-49a7585a90b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-   },
-   {
       "id":16,
       "category":"fashion",
       "views":"367",
@@ -177,16 +203,6 @@
       "date":"Published 1 hours ago",
       "desc":"Free to use under the ar photography License",
       "photos":"https://images.unsplash.com/photo-1496440737103-cd596325d314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHN0eWxlJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-   },
-   {
-      "id":1,
-      "category":"natural",
-      "views":"9,867",
-      "download":500,
-      "like":3500,
-      "date":"Published 19 hours ago",
-      "desc":"Free to use under the ar photography License",
-      "photos":"https://images.unsplash.com/photo-1560542325-d7d5fec871f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
    }
 ]
    

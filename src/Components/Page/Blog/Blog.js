@@ -1,13 +1,13 @@
 import React from 'react';
 
-const About = () => {
+const Blog = () => {
    return (
       <section style={{paddingTop:'5rem'}}>
          <div className="container">
-            <h1>this about section</h1>
+            <h1>Blog Section</h1>
          </div>
       </section>
    );
 };
 
-export default About;
+export default Blog;

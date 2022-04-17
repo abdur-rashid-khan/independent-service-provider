@@ -20,9 +20,9 @@ return (
             navbarScroll
          >
             <CustomLink className='h6 me-3'  to="/">Home</CustomLink>
-            <CustomLink className='h6 me-3'  to="/service">Service</CustomLink>
             <CustomLink className='h6 me-3'  to="/gallery"> Photo Gallery </CustomLink>
             <CustomLink className='h6 me-3' to="/about"> About </CustomLink>
+            <CustomLink className='h6 me-3'  to="/blog">Blog</CustomLink>
          </Nav>
             <div className="d-flex">
                {/* <UserCircleIcon style={{width:'36px',height:'auto',color:'#6c757d',cursor:'pointer'}}></UserCircleIcon> */}

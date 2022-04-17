@@ -1,7 +1,13 @@
 import React from "react";
 import { Card, CardGroup, ListGroup } from "react-bootstrap";
+import { Link, useNavigate } from "react-router-dom";
+
 
 const Services = () => {
+   const navigate = useNavigate()
+   const checkout =(id)=>{
+      navigate(`/checkout/${id}`);
+   }
 return (
    <section>
       <div className="container">
@@ -37,8 +43,8 @@ return (
                   </ListGroup>
                </Card.Body>
                <Card.Footer>
-                  <button className="btn btn-primary d-block w-100">
-                  Contact Now
+                  <button onClick={()=>checkout(1)}  className="btn btn-primary d-block w-100">
+                  checkout
                   </button>
                </Card.Footer>
             </Card>
@@ -71,8 +77,8 @@ return (
                   </ListGroup>
                </Card.Body>
                <Card.Footer>
-                  <button className="btn btn-primary d-block w-100">
-                  Contact Now
+               <button onClick={()=>checkout(2)} className="btn btn-primary d-block w-100">
+               checkout
                   </button>
                </Card.Footer>
             </Card>
@@ -106,8 +112,8 @@ return (
                   </ListGroup>
                </Card.Body>
                <Card.Footer>
-                  <button className="btn btn-primary d-block w-100">
-                  Contact Now
+               <button onClick={()=>checkout(3)}  className="btn btn-primary d-block w-100">
+               checkout
                   </button>
                </Card.Footer>
             </Card>
