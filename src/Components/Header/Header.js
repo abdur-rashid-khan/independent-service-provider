@@ -1,7 +1,8 @@
 import React from "react";
-import {Container, Form, FormControl, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import {Container,Nav, Navbar,} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
+import CustomLink from "../Page/Active/CustomLink";
 import './Header.css'
 
 const Header = () => {
@@ -18,18 +19,14 @@ return (
             style={{ maxHeight: "auto" }}
             navbarScroll
          >
-            <Nav.Link className="text-dark" style={{fontWeight:'bold',fontSize:'1rem'}} as={Link} to="/">Home</Nav.Link>
-            <Nav.Link className="text-dark" style={{fontWeight:'bold',fontSize:'1rem'}} as={Link} to="/service">Service</Nav.Link>
-            <Nav.Link className="text-dark" style={{fontWeight:'bold',fontSize:'1rem'}} as={Link} to="/gallery">
-            Photo Gallery
-            </Nav.Link>
-            <Nav.Link className="text-dark" style={{fontWeight:'bold',fontSize:'1rem'}} as={Link} to="/about">
-            About
-            </Nav.Link>
+            <CustomLink className='h6 me-3'  to="/">Home</CustomLink>
+            <CustomLink className='h6 me-3'  to="/service">Service</CustomLink>
+            <CustomLink className='h6 me-3'  to="/gallery"> Photo Gallery </CustomLink>
+            <CustomLink className='h6 me-3' to="/about"> About </CustomLink>
          </Nav>
             <div className="d-flex">
                {/* <UserCircleIcon style={{width:'36px',height:'auto',color:'#6c757d',cursor:'pointer'}}></UserCircleIcon> */}
-               <button className="border-0 bg-primary px-3 py-2 rounded">Login</button>
+            <button className="border-0 bg-primary px-3 py-2 rounded">Login</button>
             </div>
       </Navbar.Collapse>
       </Container>
