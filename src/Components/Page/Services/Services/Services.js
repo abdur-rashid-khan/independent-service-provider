@@ -12,7 +12,7 @@ return (
    <section>
       <div className="container">
       <div className="service-title text-center">
-         <h2>Service Session</h2>
+         <h2>Service</h2>
       </div>
       <div className="row py-4">
          <div className="col-sm-12 col-md-6 col-lg-4">

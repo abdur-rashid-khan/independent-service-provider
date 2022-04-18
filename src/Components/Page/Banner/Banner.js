@@ -15,7 +15,7 @@
             alt="First slide"
          />
          <Carousel.Caption>
-            <h3>Hello This AR Photography</h3>
+            <h3>Hello This Apurba Photography</h3>
             <p>
             Most completed photography & Magazine photos collection </p>
          </Carousel.Caption>
