@@ -9,6 +9,11 @@ const CheckOut = () => {
    return (
      <section style={{paddingTop:'5rem'}}>
         <div className="container">
+           <h3>
+              {
+                 id ? `our selected services number is ${id}`: ''
+              }
+           </h3>
            < > {id ? <Selected></Selected> : <Services></Services>}</>
         </div>
       </section>

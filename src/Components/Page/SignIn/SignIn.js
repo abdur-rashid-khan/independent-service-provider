@@ -77,7 +77,7 @@ return (
             variant="primary"
             type="submit"
          >
-            Sig In
+            Sign In
          </Button>
          <div
             className="d-flex pt-3 "

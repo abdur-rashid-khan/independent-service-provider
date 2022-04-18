@@ -49,7 +49,7 @@ return (
                   <Link onClick={()=>logout()} to={'/login'} style={{textDecoration:'none',color:'#fff'}} className="border-0 bg-danger px-3 py-2 rounded mx-2">LogOut</Link>
                   :<div> 
                      <Link to={'/login'} style={{textDecoration:'none',color:'#fff'}} className="border-0 bg-primary px-3 py-2 rounded mx-2">Login</Link>
-                     <Link to={'/sigIn'} style={{textDecoration:'none',color:'#fff'}} className="border-0 bg-info px-3 py-2 rounded mx-2">sigIn</Link>
+                     <Link to={'/signIn'} style={{textDecoration:'none',color:'#fff'}} className="border-0 bg-info px-3 py-2 rounded mx-2">sign In</Link>
                   </div>
                   
                }

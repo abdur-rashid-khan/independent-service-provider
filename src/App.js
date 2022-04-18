@@ -28,7 +28,7 @@ function App() {
           } />
           <Route path='/blog' element={<Blog />} />
           <Route path='/login' element={<Login />} />
-          <Route path='/sigIn' element={<SignIn />} />
+          <Route path='/signIn' element={<SignIn />} />
           <Route path='/forget-password' element={<ForgetPassword />} />
           <Route path='/checkout' element={
             <RequireAuth>

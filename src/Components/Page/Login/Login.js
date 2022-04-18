@@ -57,7 +57,7 @@ return (
             <Link to='/forget-password'>Forget Password ?</Link>
          </div>
          <div className="sigIn">
-            <Link to='/sigIn'> create a new account ?</Link>
+            <Link to='/signIn'> create a new account ?</Link>
          </div>
       </div>
       {
