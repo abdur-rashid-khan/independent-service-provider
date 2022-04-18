@@ -3,6 +3,7 @@
    import banner1 from '../../../images/banner.jpg'
    import banner2 from '../../../images/banner1.jpg'
    import banner3 from '../../../images/banner3.jpg'
+   import './Banner.css'
 
    const Banner = () => {
 
@@ -14,7 +15,7 @@
             src={banner1}
             alt="First slide"
          />
-         <Carousel.Caption>
+         <Carousel.Caption id='banner-text'>
             <h3>Hello This Apurba Photography</h3>
             <p>
             Most completed photography & Magazine photos collection </p>
@@ -27,7 +28,7 @@
             alt="Second slide"
          />
 
-         <Carousel.Caption>
+         <Carousel.Caption id='banner-text'>
             <h4>In photography there is a reality</h4>
             <p>so subtle that it becomes more real than reality.</p>
          </Carousel.Caption>
@@ -39,7 +40,7 @@
             alt="Third slide"
          />
 
-         <Carousel.Caption>
+         <Carousel.Caption id='banner-text'>
             <h3>The best thing about a picture is</h3>
             <p>
             That it never changes, even when the people in it do.

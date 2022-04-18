@@ -6,6 +6,7 @@ import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-fireb
 import auth from "../../../firebase.init";
 import swal from 'sweetalert';
 import Loading from "../Loading/Loading";
+import './SignIn.css'
 
 const SignIn = () => {
    const navigate= useNavigate();
@@ -44,15 +45,7 @@ const SignIn = () => {
       }
 return (
    <section style={{ paddingTop: "5rem" }} className="container">
-      <div
-      style={{
-         width: "50%",
-         margin: "auto",
-         background: "#E3ECF0",
-         padding: "2rem",
-      }}
-      className="rounded"
-      >
+      <div id="signInForm" className="rounded" >
       <Form onSubmit={loginWithEmailPassword}>
          <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>Name</Form.Label>

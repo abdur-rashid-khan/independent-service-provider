@@ -6,6 +6,7 @@ import auth from "../../../firebase.init";
 import Loading from "../Loading/Loading";
 import LoginWithXX from "../LoginWithXX/LoginWithXX";
 import swal from 'sweetalert';
+import './Login.css';
 
 const Login = () => {
    let errorElement='';
@@ -37,7 +38,7 @@ const Login = () => {
    
 return (
    <section style={{paddingTop:"5rem",}} className="container">
-      <div style={{width:'50%',margin:'auto',background:'#E3ECF0',padding:'2rem'}} className='rounded'>
+      <div id='loginForm' className='rounded'>
       <Form onSubmit={login}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
          <Form.Label>Email address</Form.Label>
@@ -52,12 +53,12 @@ return (
       <Button style={{width:'100%',margin:'auto'}} variant="primary" type="submit">
          LogIn
       </Button>
-      <div className="d-flex pt-3 " style={{justifyContent:'space-between'}}>
+      <div id="forget" className="pt-3 ">
          <div className="forget">
-            <Link to='/forget-password'>Forget Password ?</Link>
+            <Link className="" to='/forget-password'>Forget Password ?</Link>
          </div>
          <div className="sigIn">
-            <Link to='/signIn'> create a new account ?</Link>
+            <Link className="" to='/signIn'> create a new account ?</Link>
          </div>
       </div>
       {
