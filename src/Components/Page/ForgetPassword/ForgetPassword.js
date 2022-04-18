@@ -38,7 +38,7 @@ const ForgetPassword = () => {
             <Link to='/login'>I Have Account ?</Link>
          </div>
          <div className="sigIn">
-            <Link to='/sigIn'> create a new account ?</Link>
+            <Link to='/signIn'> create a new account ?</Link>
          </div>
       </div>
       </Form>
